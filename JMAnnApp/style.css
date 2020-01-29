@@ -1,0 +1,32 @@
+body{
+    background-color: skyblue;
+}
+li {
+    display: inline;
+}
+#login{
+    float: right;
+    margin-right: 100px;
+    background-color: red;
+    position: relative;
+}
+#couple{
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    background-color: pink;
+    position: relative;
+}
+#signup{
+    border-style: solid;
+    background-color: orange;
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 600px;
+    left: 30px;
+    margin-top: 20px;
+}
+#create{
+    text-align: center;
+}
