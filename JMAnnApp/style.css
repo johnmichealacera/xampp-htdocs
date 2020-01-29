@@ -7,17 +7,19 @@ li {
 #login{
     float: right;
     margin-right: 100px;
+    background-color: red;
     position: relative;
-    padding: 10px;
 }
 #couple{
     float: left;
     margin-left: 100px;
     margin-top: 75px;
+    background-color: pink;
     position: relative;
 }
 #signup{
     border-style: solid;
+    background-color: orange;
     float: left;
     position: relative;
     width: 50%;
