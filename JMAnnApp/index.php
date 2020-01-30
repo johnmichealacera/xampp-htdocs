@@ -10,10 +10,10 @@
 <img src="images/couple.jpg" alt="couple picture"/>
 </div>
 <nav id="login">
-<form>
+<form action="login.php" method="post">
 <ul>
     <li><input type="text" name="username" placeholder="Username" required></li>
-    <li><input type="password" name="password" placeholder="Password" required></li>
+    <li><input type="password" name="pword" placeholder="Password" required></li>
     <li><input type="submit" value="login" id="btnLogin"></li>
 </ul>
 </form>
