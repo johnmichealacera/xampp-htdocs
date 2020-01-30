@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>My First Social Media</title>
+    <title>My First Book Site</title>
     <script type="text/javascript" src="function.js"></script>
 </head>
 <body>
