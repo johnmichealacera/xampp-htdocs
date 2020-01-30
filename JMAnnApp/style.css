@@ -1,5 +1,5 @@
 body{
-    background-color: skyblue;
+    background-color: pink;
 }
 li {
     display: inline;
@@ -36,4 +36,8 @@ input{
 #btnLogin:hover, #btnCreate:hover{
     background-color: green;
     color: white;
+}
+h1{
+    text-shadow: 1px 1px red;
+    color: black;
 }
