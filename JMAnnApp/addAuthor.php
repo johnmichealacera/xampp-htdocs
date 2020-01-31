@@ -1,3 +1,5 @@
+<html>
+<body style="background-color:pink;">
 <?php
 $servername = "localhost";
 $username = "root";
@@ -17,7 +19,6 @@ else{
         ?>
         <script>
         alert("Author information entered to database.");
-        window.location("superProfile.php");
         </script>
         <?php
     }
@@ -27,3 +28,5 @@ else{
 }
 $conn->close();
 ?>
+</body>
+</html>
