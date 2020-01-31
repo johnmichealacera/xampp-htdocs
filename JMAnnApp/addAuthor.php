@@ -1,16 +1,29 @@
-<html>
-<body style="background-color:pink;">
-<div style="text-align:center;padding:10px;">
-<form>
-<h1>Enter Author Information</h1>
-<label for="authorName">Author Name</label>
-<input type="text" name="authorName" required><br><br>
-<textarea type="text" name="authorBackground" placeholder="Author's Short Background" rows="10" cols="180"></textarea><br><br>
-<input type="submit" value="Add Author">
-</form>
-</div>
-</body>
 <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbName = "socialmedia";
+$authorName = $_POST["authorName"];
+$background = $_POST["authorBackground"];
 
+$conn = new mysqli($servername, $username, $password, $dbName);
+
+if($conn->connect_error){
+    die ("Connection failed ".$conn->error);
+}
+else{
+    $sql = "INSERT into authors(name, background) values ('$authorName','$background')";
+    if($conn->query($sql)===TRUE){
+        ?>
+        <script>
+        alert("Author information entered to database.");
+        window.location("superProfile.php");
+        </script>
+        <?php
+    }
+    else{
+        echo "Error ".$sql."<br>".$conn->error;
+    }
+}
+$conn->close();
 ?>
-</html>

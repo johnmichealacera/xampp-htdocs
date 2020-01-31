@@ -8,7 +8,7 @@
 <h1>Welcome</h1>
 <h2>Please select what do you want to do.</h2>
 <a href="showUsers.php" target="iframeShow">View all users</a><br><br>
-<a href="addAuthor.php" target="iframeShow">Add Author</a><br><br>
+<a href="addAuthor.html" target="iframeShow">Add Author</a><br><br>
 <a href="#superFunction" target="iframeShow">Add Book</a><br>
 </div>
 <div id="frameForm">
