@@ -1,0 +1,19 @@
+body{
+    padding: 0px;
+    margin: 0px;    
+}
+#superFunction{
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+h2:hover{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    border: solid;
+}
+a:visited{
+    color: black;
+}
