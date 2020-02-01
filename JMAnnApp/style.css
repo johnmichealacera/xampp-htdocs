@@ -40,6 +40,7 @@ h1{
     text-shadow: 1px 1px red;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 button{
     position: relative;

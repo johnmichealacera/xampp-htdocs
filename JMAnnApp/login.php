@@ -24,7 +24,7 @@ else{
                 ?>
                 <script>
                 alert("You are a super user");
-                window.location="superProfile.php";
+                window.location="superDashboard.php";
                 </script>
             <?php
             }

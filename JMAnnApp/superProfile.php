@@ -4,6 +4,9 @@
 <title>Super User Profile</title>
 </head>
 <body >
+    <nav style="float:right;padding:50px;">
+    <button onclick="window.location='superDashboard.php';">Home</button>
+</nav>
 <div id="superFunction" class="main">
 <h1 >Welcome</h1>
 <h2 >Please select what do you want to do.</h2>
