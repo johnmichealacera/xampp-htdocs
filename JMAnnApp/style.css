@@ -1,0 +1,50 @@
+body{
+    background-color: pink;
+}
+li {
+    display: inline;
+}
+#login{
+    float: right;
+    margin-right: 100px;
+    padding-right: 20px;
+    background-color: burlywood;
+    position: relative;
+}
+#couple{
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    position: relative;
+}
+#signup{
+    border-style: solid;
+    background-color: rgb(139, 196, 230);
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 530px;
+    left: 30px;
+    margin-top: 20px;
+    padding-top: 60px;
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+}
+#btnLogin:hover, #btnCreate:hover{
+    background-color: green;
+    color: white;
+}
+h1{
+    text-shadow: 1px 1px red;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+button{
+    position: relative;
+    float: left;
+    margin-right: 600px;
+    color: black;
+}
