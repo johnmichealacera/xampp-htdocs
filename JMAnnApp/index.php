@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="newStyle.css">
     <title>My First Book Site</title>
     <script type="text/javascript" src="function.js"></script>
 </head>
@@ -20,6 +20,7 @@
 </nav>
 <div id="signup">
 <form id="create" name="myForm" onsubmit="return confirmPass()" action="createAccount.php" method="post">
+<br><br>
 <h1>Create Account</h1>
 <label for="createUser">Create Username: </label><input type="text" name="createUser" required><br><br><br>
 <label for="createPass">Create Password: </label><input type="password" name="createPass" required><br><br><br>
