@@ -1,10 +1,10 @@
 <html>
     <body style="background-color:skyblue;">
     <div style="text-align:center;">
-        <form action="addBookDB.php" method="post">
+        <form action="addBookDB.php" method="post" enctype="multipart/form-data">
         <h1>Provide Book Information</h1>
         <label for="bookTitle">Enter Complete Book Title/Name </label><input type="text" name="bookTitle" required><br><br>
-
+        <label for="uploadImage">Upload Book Image </label><input type="file" name="uploadImage"><br><br>
         <?php
         $servername = "localhost";
         $username = "root";

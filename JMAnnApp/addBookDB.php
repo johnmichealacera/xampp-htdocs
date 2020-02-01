@@ -16,8 +16,11 @@ if($conn->connect_error){
     die("Connection failed ".$conn->connect_error);
 }
 else{
-    $sql="Insert into books(title,author_id,publish,plot) values ('$bookTitle','$authorID','$bookPublish','$bookPlot')";
+    $upload_image = $_FILES["uploadImage"]["name"];
+    $folder = "C:/xampp/htdocs/JMAnnApp/images/";
+    $sql="Insert into books(title,author_id,publish,plot,upload_image,folder) values ('$bookTitle','$authorID','$bookPublish','$bookPlot','$upload_image','$folder')";
     if($conn->query($sql)===TRUE){
+    move_uploaded_file($_FILES["uploadImage"]["tmp_name"], "$folder".$_FILES["uploadImage"]["name"]);
         ?>
         <script>
             alert("Books added successfully");
