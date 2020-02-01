@@ -19,9 +19,7 @@ li {
 }
 #signup{
     border-style: solid;
-    background-color: rgb(139, 196, 230);
-    float: left;
-    position: relative;
+   
     width: 50%;
     height: 530px;
     left: 30px;
