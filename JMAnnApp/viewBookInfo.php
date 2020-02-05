@@ -1,5 +1,5 @@
 <html>
-<body style="background-color:skyblue;">
+<body style="background-color:skyblue; padding: 70px;">
 <nav style="float:right;">
 <form action="viewFrame.php" method="post" target="viewFrame">
 <label for="searchBy">Search Book By</label>
