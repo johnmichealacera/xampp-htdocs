@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" href="bookView.css">
 </head>
-<body style="background-color: burlywood;">
+<body>
 <?php
 $servername = "localhost";
 $username = "root";
