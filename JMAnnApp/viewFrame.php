@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" href="bookView.css">
+<link rel="stylesheet" href="viewBook.css">
 </head>
 <body>
 <?php

@@ -1,0 +1,14 @@
+#leftSection{
+    float:left;
+    padding: 15px 40px;
+
+}
+#rightsection{
+    overflow: auto;
+}
+body{
+background-color: burlywood;
+}
+a{
+    text-decoration: none;
+}
