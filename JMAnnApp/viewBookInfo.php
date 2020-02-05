@@ -11,8 +11,10 @@
 <input type="submit" value="Enter" >
 </form>
 </nav>
-<button onclick="window.location='superDashboard.php'" style="float:left;">Home</button>
-<div>
+<nav style="float:left;">
+<button onclick="window.location='superDashboard.php'">Home</button>
+<button onclick="window.location='index.php'">Logout</button>
+</nav>
 <iframe src="iframeCanvas.php" name="viewFrame" width="100%" height="100%"></iframe>
 </body>
 </html>

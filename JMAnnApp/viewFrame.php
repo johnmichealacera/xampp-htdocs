@@ -40,14 +40,14 @@ else{
         }
     }
     if($selection=="author"){
-        $sql = "select name, background, author_id from authors where name='$bookInfo'";
+        $sql = "select authors.name, authors.background, authors.author_id from authors where authors.name='$bookInfo'";
         $result = $conn->query($sql);
         if($result->num_rows>0){
+            
             while($row=$result->fetch_assoc()){
                 ?>
                 <a href=#><h2><?php echo $row['name']; ?></h2></a>
                 <h5><?php echo $row['background']; ?></h5><br><br>
-                <input name="author_IDContainerAuthor" value="<?php echo $row['author_id']; ?>" style="display:none;">
                 <?php
             }
         }
