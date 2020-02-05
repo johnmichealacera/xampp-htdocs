@@ -22,7 +22,7 @@ else{
             <?php
             while($row=$result->fetch_assoc()){
                 ?>
-                <img src="/images/images (8).jpeg" alt="Book Image" width="300" height="300" oneerror="this.onerror=null; this.src='couple.jpeg'">
+                <img src="images\<?php echo $row['upload_image']; ?>" alt="Book Image" width="300" height="300">
                 <li><?php echo $row['title'];?></li>
                 <li><?php echo $row['publish'];?></li>
                 <li><?php echo $row['plot']; ?></li>
